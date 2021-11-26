@@ -1,0 +1,10 @@
+__pycache__
+docs/_site
+docs/.jekyll-cache
+docs/vendor/bundle/ruby/2.7.0/bin
+docs/vendor/bundle/ruby/2.7.0/build_info
+docs/vendor/bundle/ruby/2.7.0/cache
+docs/vendor/bundle/ruby/2.7.0/doc
+docs/vendor/bundle/ruby/2.7.0/extensions
+docs/vendor/bundle/ruby/2.7.0/gems
+docs/vendor/bundle/ruby/2.7.0/specifications

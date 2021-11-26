@@ -1,0 +1,7 @@
+url: "https://justgetwet.github.io"
+baseurl: "/draw"
+title: "Draw by Python"
+github_username: "Akira"
+
+theme: redshot
+remote_theme: justgetwet/redshot

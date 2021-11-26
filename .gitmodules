@@ -1,0 +1,4 @@
+[submodule "docs/vendor/bundle/ruby/2.7.0/bundler/gems/redshot-0d6ba690a943"]
+  path = docs/vendor/bundle/ruby/2.7.0/bundler/gems/redshot-0d6ba690a943
+  url = https://github.com/justgetwet/redshot.git
+  branch = main
