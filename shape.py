@@ -44,7 +44,6 @@ if __name__ == '__main__':
 
   s = Shape()
   ell = s.ellipse(30, 40, (-30, -30))
-  print(ell)
   x, y = Figure(ell).plot()
   ax.plot(x, y, "pink")
 

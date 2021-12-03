@@ -1,0 +1,40 @@
+:root {
+    --background-color: #1f1e63;
+    --gray: #a2a2ad;
+}
+
+.circle {
+    fill: var(--background-color);
+}
+
+.body {
+    fill: var(--gray);
+}
+
+.reg {
+    fill: var(--gray);
+}
+
+.arm {
+    fill: var(--gray);
+}
+
+.arm_r {
+    fill: var(--gray);
+}
+
+.head {
+    fill: var(--gray);
+}
+
+.reg1 {
+    fill: var(--gray);
+}
+
+.reg2 {
+    fill: var(--gray);
+}
+
+.reg3 {
+    fill: var(--gray);
+}

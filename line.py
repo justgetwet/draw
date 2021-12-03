@@ -2,17 +2,20 @@ import matplotlib.pyplot as plt
 import math
 import numpy as np
 
-def pythagoras_line(p, q, steps=100):
-  
-  dist = ((q[0]-p[0])**2 + (q[1]-p[1])**2)**0.5
-  rad = math.atan2(q[1]-p[1], q[0]-p[0])
 
-  x, y = [], []
-  for t in [s / steps for s in range(steps + 1)]:
-    x.append(math.cos(rad) * dist * t + p[0])
-    y.append(math.sin(rad) * dist * t + p[1])
-  
-  return x, y
+
+def pythagoras_line(p, q, steps=100):
+
+    dist = ((q[0]-p[0])**2 + (q[1]-p[1])**2)**0.5
+    rad = math.atan2(q[1]-p[1], q[0]-p[0])
+
+    t_list = [s / steps for s in range(steps + 1)]
+    x, y = [], []
+    for t in t_list:
+        x.append(math.cos(rad) * dist * t + p[0])
+        y.append(math.sin(rad) * dist * t + p[1])
+
+    return x, y
 
 def linear_bezier(p, q, steps=100):
 

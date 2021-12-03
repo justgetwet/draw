@@ -19,7 +19,7 @@ class Array:
     # イテレータ処理
     if self._i == len(self.value):
       raise StopIteration()
-    values = self.value[self._i]
+    value = self.value[self._i]
     self._i += 1
     return value
 
